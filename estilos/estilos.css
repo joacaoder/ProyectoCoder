@@ -7,6 +7,10 @@
 
 /* HEADER */
 
+
+
+
+
 .grid-container {
     width: 100%;
     display: grid;
@@ -19,19 +23,18 @@
 }
 
 .header {
-    display: flex;
-    background-color: black;
+    /* display: flex;     */
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    grid-area: header;
+    /* justify-content: center;
+    align-items: center; */    
+    grid-area: header;    
 }
 
 .header ul li {
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 1.25em;
-    margin-right: 1.25em;
+    margin-right: 1.25em;       
+    
 }
 
 .header ul li a {
@@ -39,6 +42,7 @@
     color: white;
     font-weight: bold;
     font-size: 15pt;
+    
 }
 
 .header ul li:hover {
@@ -444,10 +448,16 @@ tr:hover td {
 
 /* MEDIA QUIERES */
 
+@media screen and (max-width: 1520px){
+    li{
+        /* white-space: nowrap; */
+    }
+}
+
 @media screen and (max-width: 1031px) {
 
     .header ul li {
-        flex-direction: column;
+        /* flex-direction: column; */
         margin-left: 1.25em;
         margin-right: 1.25em;
     }
@@ -512,12 +522,12 @@ tr:hover td {
 @media screen and (max-width: 842px) {
 
     .header {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: flex-start;
     }
 
     .header ul li {
-        display: block;
+        /* display: block; */
         margin: 20px;
     }
 
@@ -564,6 +574,17 @@ tr:hover td {
         width: 20em;
     }
 }
+
+@media screen and (max-width: 543px){
+    .fotocontacto img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+
+
 
 
 /* TRAINSICIONES */
@@ -731,3 +752,5 @@ tr:hover td {
         background-position: 0 50%
     }
 }
+
+

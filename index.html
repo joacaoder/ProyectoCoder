@@ -7,21 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <title>Clases de programacion</title>
 </head>
 
 <body>
     <div class="grid-container">
         <header class="header">
-            <div>
-                <a href="index.html"><img src="imagenes/loguito.png" alt=""> </a>
-            </div>
-            <ul>
-                <li><a href="pages/dedicamos.html">¿A qué nos dedicamos?</a></li>
-                <li><a href="pages/met.html">Metodología</a></li>
-                <li><a href="pages/pdd.html">Precios y dias disponibles</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="index.html"><img class="logoprincipal"
+                                src="imagenes/logoprincipal.png" alt=""></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="pages/dedicamos.html">¿A que nos dedicamos?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="pages/met.html">Nuestra metodologia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/pdd.html">Precios y dias disponibles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </header>
         <main class="main">
             <section class="hero">
@@ -50,7 +75,8 @@
                                 <img src="imagenes/foto.png" alt="">
                             </div>
                             <div>
-                                <p class="shadow-pop-tl">Medimos, medimos y medimos. Analizamos todas las métricas de lo implementado,
+                                <p class="shadow-pop-tl">Medimos, medimos y medimos. Analizamos todas las métricas de lo
+                                    implementado,
                                     elaboramos
                                     hipótesis y conclusiones para poder re-diseñar y volver a implementar para estar en
                                     continua
@@ -58,8 +84,9 @@
                             </div>
                         </div>
                         <div>
-                            <div >
-                                <p class="shadow-pop-tr">Medimos, medimos y medimos. Analizamos todas las métricas de lo implementado,
+                            <div>
+                                <p class="shadow-pop-tr">Medimos, medimos y medimos. Analizamos todas las métricas de lo
+                                    implementado,
                                     elaboramos
                                     hipótesis y conclusiones para poder re-diseñar y volver a implementar para estar en
                                     continua
@@ -74,7 +101,8 @@
                                 <img src="imagenes/ultima.jpg" alt="">
                             </div>
                             <div>
-                                <p class="shadow-pop-tl">Medimos, medimos y medimos. Analizamos todas las métricas de lo implementado,
+                                <p class="shadow-pop-tl">Medimos, medimos y medimos. Analizamos todas las métricas de lo
+                                    implementado,
                                     elaboramos
                                     hipótesis y conclusiones para poder re-diseñar y volver a implementar para estar en
                                     continua
@@ -92,16 +120,16 @@
                     <div class="contenedor">
                         <div>
                             <a href="https://code.visualstudio.com/">Click aqui para ir a Visual Code Studio</a>
-                            <iframe class="transdos" src="https://www.youtube.com/embed/KMxo3T_MTvY" title="YouTube video player"
-                                frameborder="0"
+                            <iframe class="transdos" src="https://www.youtube.com/embed/KMxo3T_MTvY"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen>
                             </iframe>
                         </div>
                         <div>
                             <a href="https://balsamiq.com/"> Click aqui para ir a Balsamiq</a>
-                            <iframe class="transdos" src="https://www.youtube.com/embed/0mYYqsJ-rE8" title="YouTube video player"
-                                frameborder="0"
+                            <iframe class="transdos" src="https://www.youtube.com/embed/0mYYqsJ-rE8"
+                                title="YouTube video player" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen>
                             </iframe>
@@ -139,6 +167,7 @@
             </div>
         </footer>
     </div>
+    <script src="bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

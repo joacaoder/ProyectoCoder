@@ -8,20 +8,46 @@
     <link rel="icon" href="../imagenes/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Clases de programacion</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
 </head>
 
 <body>
     <div class="grid-container">
         <header class="header">
-            <div>
-                <a href="../index.html"><img src="../imagenes/loguito.png" alt=""> </a>
-            </div>
-            <ul>
-                <li><a href="../pages/dedicamos.html">¿A qué nos dedicamos?</a></li>
-                <li><a href="../pages/met.html">Metodología</a></li>
-                <li><a href="../pages/pdd.html">Precios y dias disponibles</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="../index.html"><img class="logoprincipal"
+                                src="../imagenes/logoprincipal.png" alt=""></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../pages/dedicamos.html">¿A que nos
+                                    dedicamos?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/met.html">Nuestra metodologia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/pdd.html">Precios y dias disponibles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <main class="main">
@@ -74,6 +100,7 @@
             </div>
         </footer>
     </div>
+    <script src="../bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>
