@@ -67,7 +67,7 @@
     background-image: url(../imagenes/fondohero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
+    align-items: center;    
 }
 
 .hero>div:hover{
@@ -100,7 +100,7 @@ h1:hover {
 }
 
 .hero div {
-    padding: 4.375em;
+    padding: 1.375em;
 }
 
 .hero div div {
@@ -109,7 +109,11 @@ h1:hover {
 
 .hero img {
     width: 70%;
-    height: auto;
+    height: auto;   
+}
+
+.divfoto{
+    text-align: center;
 }
 
 /* MAIN */
@@ -358,8 +362,7 @@ tr:hover td {
 .contacto>div {
     border-left-style: solid;
     border-left-color: red;
-    border-left-width: 0.3125em;
-    margin-left: 3.125em;
+    border-left-width: 0.3125em;   
     border-radius: 0.25em;
     box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
     width: 80%;
@@ -504,7 +507,7 @@ tr:hover td {
     }
 
     .hero div div {
-        margin-left: 50px;
+        margin-left: 15px;
     }
 
     .hero img {
