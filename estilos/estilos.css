@@ -599,14 +599,6 @@ tr:hover td {
     border: solid orangered;
 }
 
-.transdos {
-    transition: width 2s;
-}
-
-.transdos:hover {
-    width: 700px;
-    height: 500px;
-}
 
 .transtres {
     transition: width 2s;
