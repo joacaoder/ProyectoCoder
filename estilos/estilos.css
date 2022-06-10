@@ -630,21 +630,21 @@ tr:hover td {
 /* ANIMACIONES */
 
 /* .tituloanimado { */
-    animation-name: titulo;
+    /* animation-name: titulo;
     animation-duration: 10s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 1; */
 }
 
 /* linea de tiempo */
 
 /* @keyframes titulo { */
-    from {
+    /* from {
         transform: translateX(1300px);
     }
 
     to {
         transform: translateX(0);
-    }
+    } */
 }
 
 /* .tituloanimadodos { */
@@ -656,13 +656,13 @@ tr:hover td {
 /* linea de tiempo */
 
 /* @keyframes titulodos { */
-    from {
+    /* from {
         transform: translateX(1300px);
     }
 
     to {
         transform: translateX(0);
-    }
+    } */
 }
 
 
