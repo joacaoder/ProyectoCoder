@@ -177,8 +177,8 @@ h2 {
 
 
 .frames iframe {
-    width: 28.125em;
-    height: 28.125em;
+    width: 20.125em;
+    height: 20.125em;
     box-shadow: 0.3125em 0.3125em 0.3125em 0.3125em #A9A9A9;
 }
 
@@ -583,11 +583,6 @@ tr:hover td {
     .fotocontacto img{
         height: 200px;
         width: 200px;
-    }
-
-    .frame iframe{
-        width: min-content;
-        height: auto;
     }
 }
 
