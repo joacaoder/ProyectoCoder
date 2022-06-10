@@ -637,7 +637,7 @@ tr:hover td {
 
 /* linea de tiempo */
 
-@keyframes titulo {
+/* @keyframes titulo { */
     from {
         transform: translateX(1300px);
     }
@@ -655,7 +655,7 @@ tr:hover td {
 
 /* linea de tiempo */
 
-@keyframes titulodos {
+/* @keyframes titulodos { */
     from {
         transform: translateX(1300px);
     }
