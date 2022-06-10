@@ -593,9 +593,6 @@ tr:hover td {
 
 
 
-
-
-
 /* TRAINSICIONES */
 
 .transuno {
@@ -632,7 +629,7 @@ tr:hover td {
 
 /* ANIMACIONES */
 
-.tituloanimado {
+/* .tituloanimado { */
     animation-name: titulo;
     animation-duration: 10s;
     animation-iteration-count: 1;
@@ -650,7 +647,7 @@ tr:hover td {
     }
 }
 
-.tituloanimadodos {
+/* .tituloanimadodos { */
     animation-name: titulodos;
     animation-duration: 3s;
     animation-iteration-count: 1;
