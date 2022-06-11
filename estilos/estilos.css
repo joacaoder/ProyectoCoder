@@ -67,7 +67,8 @@
     background-image: url(../imagenes/fondohero.png);
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;    
+    align-items: center; 
+    width: 100%;   
 }
 
 .hero>div:hover{
@@ -592,6 +593,15 @@ tr:hover td {
         width: 200px;
     }
 }
+
+@media screen and (max-width: 500px){
+    .hero>div{
+        height: 90vh;
+        width: auto;
+    }    
+}
+
+
 
 
 
