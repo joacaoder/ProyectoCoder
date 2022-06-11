@@ -63,7 +63,7 @@
 .hero>div {
     display: flex;
     flex-direction: row;
-    height: 70vh;
+    height: 80vh;
     background-image: url(../imagenes/fondohero.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -600,15 +600,6 @@ tr:hover td {
 .transuno:hover {
     width: 500px;
     border: solid orangered;
-}
-
-
-.transtres {
-    transition: width 2s;
-}
-
-.transtres:hover {
-    width: 1000px;
 }
 
 .subetamano:hover {
