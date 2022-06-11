@@ -304,6 +304,7 @@ h2 {
 
 .marcodedicamos p {
     margin-top: 2.1875em;
+    font-size: 22px;
 }
 
 /* ESTILOS PARA PRECIOS.HTML */
@@ -600,12 +601,6 @@ tr:hover td {
 .transuno:hover {
     width: 500px;
     border: solid orangered;
-}
-
-.subetamano:hover {
-    font-size: 30px;
-    border: solid black;
-    padding: 40px;
 }
 
 /* ANIMACIONES */
