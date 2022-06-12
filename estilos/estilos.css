@@ -549,8 +549,8 @@ tr:hover td {
 @media screen and (max-width: 899px){
 
     .hero>div{
-        height: 90vh;
-        width: auto;
+        height: 100vh;
+        width: auto;        
     }
     
     .todasfotos>div {
@@ -650,9 +650,22 @@ tr:hover td {
 
 @media screen and (max-width: 500px){
     .hero>div{
-        height: 90vh;
+        height: 140vh;
         width: auto;
-    }    
+    }        
+}
+
+@media screen and (max-width: 265px){
+    .hero>div{
+        height: 160vh;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .frames{
+       margin-left: 30px;
+    }
 }
 
 /* TRAINSICIONES */
