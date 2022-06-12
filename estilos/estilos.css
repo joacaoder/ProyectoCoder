@@ -654,6 +654,26 @@ tr:hover td {
     .frames{
        margin-left: 30px;
     }
+
+    .metodologia{
+        width: auto;
+    }
+
+    .metodologia h2{
+        flex-wrap: wrap;  
+        width: auto;     
+    }
+    
+    .marcovideo iframe{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .metodologia h2{
+        flex-wrap: wrap;
+        font-size: 20pt;
+    }
 }
 
 /* TRAINSICIONES */
