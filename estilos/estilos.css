@@ -13,10 +13,6 @@ overflow-x:hidden;
 
 /* HEADER */
 
-
-
-
-
 .grid-container {
     width: 100%;
     display: grid;
@@ -39,16 +35,14 @@ overflow-x:hidden;
 .header ul li {
     /* display: inline-block; */
     margin-left: 1.25em;
-    margin-right: 1.25em;       
-    
+    margin-right: 1.25em;    
 }
 
 .header ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 15pt;
-    
+    font-size: 15pt;    
 }
 
 .header ul li:hover {
@@ -186,7 +180,6 @@ h2 {
     margin-top: 2.5em;
 }
 
-
 .frames iframe {
     width: 20.125em;
     height: 20.125em;
@@ -235,9 +228,7 @@ h2 {
     justify-content: space-around;
     margin-top: 1.5625em;
     align-items: center;
-    margin-bottom: 1.25em;  
-    
-    
+    margin-bottom: 1.25em;      
 }
 
 .maps div div iframe {
@@ -581,9 +572,6 @@ tr:hover td {
     }
 }
 
-   
-
-
 @media screen and (max-width: 842px) {
 
     .header {
@@ -707,12 +695,10 @@ tr:hover td {
     }
 }
 
-
 .shadow-pop-tr:hover {
     -webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
 }
-
 
 @-webkit-keyframes shadow-pop-tr {
     0% {
@@ -746,7 +732,6 @@ tr:hover td {
     }
 }
 
-
 @keyframes fluido {
     0% {
         background-position: 0 50%
@@ -760,5 +745,3 @@ tr:hover td {
         background-position: 0 50%
     }
 }
-
-
