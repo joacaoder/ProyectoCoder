@@ -530,6 +530,16 @@ tr:hover td {
     }
 }
 
+@media screen and (min-width: 900px) and (max-width:5000px){
+    .transuno {
+        transition: width 2s;
+    }
+    
+    .transuno:hover {
+        width: 500px;       
+    }    
+}
+
 @media screen and (max-width: 899px){
 
     .hero>div{
@@ -640,15 +650,6 @@ tr:hover td {
 }
 
 /* TRAINSICIONES */
-
-.transuno {
-    transition: width 2s;
-}
-
-.transuno:hover {
-    width: 500px;
-    border: solid orangered;
-}
 
 .shadow-pop-tl:hover {
     -webkit-animation: shadow-pop-tl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
