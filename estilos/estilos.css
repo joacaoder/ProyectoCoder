@@ -223,20 +223,20 @@ h2 {
     background-color: rgb(51, 255, 0);
 }
 
-
 .maps div {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 1.5625em;
     align-items: center;
-    margin-bottom: 1.25em;   
+    margin-bottom: 1.25em;  
+    
     
 }
 
 .maps div div iframe {
     height: 80%;
-    width: 25em;
+    width: 20em;
 }
 
 .maps div div {   
@@ -246,12 +246,11 @@ h2 {
     border-left-width: 0.3125em;
     margin-left: 3.125em;
     border-radius: 0.25em;
-    box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);    
+    box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);      
 }    
 
 .maps div div p {
-    width: 40%;
-    text-align: right;
+    text-align: justify;
 }
 
 /* ESILOS PARA MET.HTML */
@@ -531,6 +530,44 @@ tr:hover td {
     }
 }
 
+@media screen and (max-width: 899px){
+
+    .hero>div{
+        height: 90vh;
+        width: auto;
+    }
+    
+    .todasfotos>div {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .todasfotos div div {
+        width: auto;
+        padding: 5px;
+    }
+
+    .maps div {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .maps div div{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .maps{
+        width: 90%;
+    }
+}
+
+   
+
+
 @media screen and (max-width: 842px) {
 
     .header {
@@ -551,17 +588,18 @@ tr:hover td {
         flex-direction: column;
     }
 
+    .hero>div{
+        height: 90vh;
+        width: auto;
+    }
+
     .hero div div {
         width: auto;
     }
 
     .maps div {
         flex-direction: column;
-    }
-
-    .maps iframe {
-        width: auto;
-    }
+    }    
 }
 
 @media screen and (max-width: 640px) {
@@ -600,10 +638,6 @@ tr:hover td {
         width: auto;
     }    
 }
-
-
-
-
 
 /* TRAINSICIONES */
 
