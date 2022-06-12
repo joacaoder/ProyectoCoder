@@ -390,6 +390,10 @@ tr:hover td {
     background-color: red;
 }
 
+.instagram:active{
+    background-color: gray;
+}
+
 .formu {
     margin-left: auto;
     margin-right: auto;
