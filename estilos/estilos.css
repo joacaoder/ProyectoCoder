@@ -544,7 +544,8 @@ tr:hover td {
 @media screen and (max-width: 899px){
 
     .hero>div{
-        height: 100vh;
+        height: fit-content;
+        padding: 30px;
         width: auto;        
     }
     
@@ -597,7 +598,8 @@ tr:hover td {
     }
 
     .hero>div{
-        height: 90vh;
+        height: fit-content;
+        padding: 30px;
         width: auto;
     }
 
@@ -638,18 +640,20 @@ tr:hover td {
         height: 200px;
         width: 200px;
     }   
+    
 }
 
 @media screen and (max-width: 500px){
     .hero>div{
-        height: 140vh;
+        height: 140px;
         width: auto;
     }    
 }
 
 @media screen and (max-width: 265px){
     .hero>div{
-        height: 160vh;
+        height: fit-content;
+        padding: 30px;
         width: auto;
     }
 }
