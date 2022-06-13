@@ -648,7 +648,7 @@ tr:hover td {
 
 @media screen and (max-width: 500px){
     .hero>div{
-        height: 140px;
+        height: fit-content;
         width: auto;
     }    
 }
