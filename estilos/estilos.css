@@ -24,16 +24,25 @@ overflow-x:hidden;
         "footer";
 }
 
-.header {
-    /* display: flex;     */
-    width: 100%;
-    /* justify-content: center;
-    align-items: center; */    
+button.btn{
+    background-color: #23a6d5;
+}
+
+button.btn-outline-info{
+    color: #000;
+}
+
+
+.header {    
+    width: 100%;     
     grid-area: header;    
 }
 
-.header ul li {
-    /* display: inline-block; */
+.header ul{
+   align-items: center;
+}
+
+.header ul li {   
     margin-left: 1.25em;
     margin-right: 1.25em;    
 }
@@ -148,13 +157,14 @@ h2 {
     border-left-width: 0.3125em;
     border-radius: 0.25em;
     box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
+    padding: 20px;
 }
 
 .todasfotos div {
     display: flex;
     flex-direction: row;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
+    /* margin-top: 2.5em; */
+    /* margin-bottom: 1.5em; */
     justify-content: space-evenly;
 }
 
@@ -261,14 +271,24 @@ h2 {
     border-left-width: 0.3125em;
     box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
     padding: 3.125em;
-    width: 100%;
+    width: fit-content;
     margin-top: 1.875em;
     margin-bottom: 1.25em;
 }
 
 .video {
     display: flex;
+    justify-content: center;    
+}
+
+.video>div{
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+.video h2{
+    text-align: center;
 }
 
 .video iframe {
@@ -289,12 +309,10 @@ h2 {
     border-left-style: solid;
     border-left-color: red;
     border-left-width: 0.3125em;
-    margin-left: 3.125em;
+    /* margin-left: 3.125em; */
     border-radius: 0.25em;
     box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
-    padding-left: 3.125em;
-    padding-right: 3.125em;
-    padding-bottom: 3.125em;
+    padding: 20px;
     width: 70%;
     justify-content: center;
 }
@@ -306,8 +324,13 @@ h2 {
 }
 
 .marcodedicamos p {
-    margin-top: 2.1875em;
+    /* margin-top: 2.1875em; */
     font-size: 22px;
+}
+
+.marcodedicamos h2{
+    margin-top: 20px;
+    text-decoration: underline;
 }
 
 /* ESTILOS PARA PRECIOS.HTML */
@@ -323,8 +346,7 @@ h2 {
 .marcotabla>div {
     border-left-style: solid;
     border-left-color: red;
-    border-left-width: 0.3125em;
-    margin-left: 3.125em;
+    border-left-width: 0.3125em;   
     border-radius: 0.25em;
     box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
     padding: 3.125em;
@@ -574,9 +596,25 @@ tr:hover td {
     }
 }
 
+@media screen and (max-width: 768px){
+    .video iframe {
+        width: 400px;
+        height: 260px;        
+    }
+
+    .marcovideo div{
+       
+    }
+    
+}
+
 @media screen and (max-width: 715px) {
     .maps{
         width: 90%;
+    }
+
+    #main-tabla {
+        width: 20em;
     }
 }
 
@@ -626,12 +664,7 @@ tr:hover td {
     .todasfotos div div {
         width: auto;
         padding: 5px;
-    }
-
-    .video iframe {
-        width: 480px;
-        height: 320px;
-    }
+    }    
 
     .form-register {
         width: 20em;
@@ -668,7 +701,7 @@ tr:hover td {
 
     .metodologia{
         width: auto;
-    }
+    }    
 
     .metodologia h2{
         flex-wrap: wrap;  
