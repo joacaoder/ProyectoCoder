@@ -232,8 +232,9 @@ h2 {
 }
 
 .maps div div iframe {
-    height: 80%;
+    height: 100%;
     width: 20em;
+    padding: 10px;
 }
 
 .maps div div {   
@@ -243,11 +244,13 @@ h2 {
     border-left-width: 0.3125em;
     margin-left: 3.125em;
     border-radius: 0.25em;
-    box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);      
+    box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);     
+    padding: 30px;   
 }    
 
 .maps div div p {
     text-align: justify;
+    padding: 10px;
 }
 
 /* ESILOS PARA MET.HTML */
