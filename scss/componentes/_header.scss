@@ -1,0 +1,30 @@
+/* ---------- HEADER ----------*/
+
+button.btn{
+    background-color: #23a6d5;
+}
+
+button.btn-outline-info{
+    color: #000;
+}
+
+.header {
+    width: 100%;
+    grid-area: header;
+    ul{
+        align-items: center;
+        li{
+            margin-left: 1.25em;
+            margin-right: 1.25em;
+            a{
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                font-size: 15pt;
+                &:hover{
+                    background-color: darkcyan;
+                }
+            }
+        }
+    }
+}

@@ -32,7 +32,6 @@ button.btn-outline-info{
     color: #000;
 }
 
-
 .header {    
     width: 100%;     
     grid-area: header;    
@@ -139,6 +138,9 @@ h2 {
     margin-top: 1.875rem;
     font-size: 1.875em;  
 }
+.cuerpo{
+
+}
 
 .cuerpo>div {
     display: flex;
@@ -208,15 +210,15 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin: 3.125em;
-    margin-top: 0.625em;
+    align-items: center;   
     flex-wrap: wrap;
+    margin: 3.125em;
 }
 
 .frames div div div {
     display: flex;
     flex-direction: column;
+    margin: 3.125em;
 }
 
 .frames div div a {

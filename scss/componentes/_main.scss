@@ -1,0 +1,356 @@
+/* ----------SECTION HERO---------- */
+.hero {
+    width: 100%;
+    >div{
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+        background-image: url(../imagenes/fondohero.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: center; 
+        width: 100%;
+        padding: 1.375em;
+        &:hover{
+            background-image: url(../imagenes/fondoherogris.png);
+        }
+        div{
+            width: 50%;
+            padding: 1.375em;
+            p {
+                color: white;
+                font-size: 1.875em;
+                font-family: "Nunito sans";
+                font-weight: bold;
+                margin-top: 1.875rem;
+            }
+            h1 {
+                color: yellow;
+                font-size: 4.375em;
+                font-family: "Nunito sans";
+                &:hover {
+                    transform: scale(1.05, 1.05);
+                    animation: fluido 5s ease-in-out infinite;
+                    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+                    background-size: 300%;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+        .divfoto{
+            text-align: center;
+            img {
+                width: 70%;
+                height: auto;   
+            }
+        }       
+    }    
+}
+
+/* ----------MAIN INDEX---------- */
+
+.main {
+    grid-area: main;
+    width: 100%;    
+    h2 {
+        text-align: center;
+        font-family: "Nunito sans";
+        margin-top: 1.875rem;
+        font-size: 1.875em;  
+    }
+}
+
+.cuerpo{
+    p {font-size: 15pt;}  
+    img {
+        width: 100%;
+        height: auto;
+    }   
+    >div {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25em;
+        .todasfotos {
+            width: 80%;
+            border-left-style: solid;
+            border-left-color: rgb(0, 4, 255);
+            border-left-width: 0.3125em;
+            border-radius: 0.25em;
+            box-shadow: 0 0 0.625em 0.125em $color-gris;
+            padding: 20px;
+            div {
+                display: flex;
+                flex-direction: row;       
+                justify-content: space-evenly;
+                div {
+                    width: 25%;
+                    align-items: center;
+                }
+            }
+        } 
+    }    
+}
+
+.frames{
+    margin-top: 2.5em;
+    iframe {
+        width: 20.125em;
+        height: 20.125em;
+        box-shadow: 0.3125em 0.3125em 0.3125em 0.3125em #A9A9A9;
+    }
+    >div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 1.5625em;
+        .contenedor{
+            border-left-style: solid;
+            border-left-color: rgb(51, 255, 0);
+            border-left-width: 0.3125em;
+            border-radius: 0.25em;
+            box-shadow: 0 0 0.625em 0.125em rgb(144 149 161 / 20%);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;            
+            flex-wrap: wrap;
+            margin: 3.125em;
+            a{
+                list-style: none;
+                text-decoration: none;
+                font-size: large;
+                font-weight: 900;
+                color: black;
+                text-decoration: underline;  
+                &:hover{background-color: rgb(51, 255, 0);}
+            }
+            div{
+                display: flex;
+                flex-direction: column;  
+                margin: 3.125em;  
+            }   
+        }
+    }
+}
+
+.maps{
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 1.5625em;
+        align-items: center;
+        margin-bottom: 1.25em;
+        div{
+            height: 18.75em;
+            border-left-style: solid;
+            border-left-color: $color-rojo;
+            border-left-width: 0.3125em;
+            margin-left: 3.125em;
+            border-radius: 0.25em;
+            box-shadow: 0 0 0.625em 0.125em $color-gris;     
+            padding: 30px;
+            iframe{
+                height: 100%;
+                width: 20em;
+                padding: 10px;   
+            }
+            p{
+                text-align: justify;
+                padding: 10px;   
+            }   
+        }    
+    }
+}
+
+/* ----------MAIN PARA MET.HTML---------- */
+
+.video{
+    display: flex;
+    justify-content: center;
+    >div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .metodologia{
+            h2{
+                text-align: center;
+            }        
+        }
+        .marcovideo {
+            border-left-style: solid;
+            border-left-color: $color-rojo;
+            border-left-width: 0.3125em;
+            box-shadow: 0 0 0.625em 0.125em $color-gris;
+            padding: 3.125em;
+            width: fit-content;
+            margin-top: 1.875em;
+            margin-bottom: 1.25em;
+            div{
+                iframe{
+                    width: 64em;
+                    height: 48em;  
+                }
+            }
+        }
+    }
+}
+
+/* ----------MAIN PARA DEDICAMOSHTML---------- */
+
+.marcodedicamos {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.875em;
+    margin-bottom: 1.25em;
+    >div {
+        border-left-style: solid;
+        border-left-color: $color-rojo;
+        border-left-width: 0.3125em;        
+        border-radius: 0.25em;
+        box-shadow: 0 0 0.625em 0.125em $color-gris;
+        padding: 20px;
+        width: 80%;
+        justify-content: center;
+        div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            p{
+                font-size: 22px;   
+            }
+            h2{
+                margin-top: 20px;
+                text-decoration: underline;  
+            }
+        }
+    }
+}
+
+/* ----------MAIN PARA PRECIOS.HTML---------- */
+
+.marcotabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5em;
+    margin-bottom: 1.875em;
+    >div {
+        border-left-style: solid;
+        border-left-color: $color-rojo;
+        border-left-width: 0.3125em;   
+        border-radius: 0.25em;
+        box-shadow: 0 0 0.625em 0.125em $color-gris;
+        padding: 3.125em;
+        #main-tabla {
+            width: 30em;
+            table {
+                background-color: white;
+                text-align: left;
+                width: 100%;
+                border-collapse: collapse;
+            }
+            
+            th,
+            td {
+                padding: 1.25em;
+            }
+            
+            thead {
+                background-color: #246355;
+                border-bottom: solid 0.3125em #0F362D;
+                color: white;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #ddd;
+            }
+            
+            tr:hover td {
+                background-color: #369681;
+                color: white;
+            }
+        }
+    }
+}
+
+/* ----------MAIN PARA CONTACTO.HTML---------- */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    >div {
+        border-left-style: solid;
+        border-left-color: $color-rojo;
+        border-left-width: 0.3125em;   
+        border-radius: 0.25em;
+        box-shadow: 0 0 0.625em 0.125em $color-gris;
+        width: 80%;
+        margin-top: 2.5em;
+        margin-bottom: 1.25em;
+        div{
+            .instagram {
+                list-style: none;
+                text-decoration: none;
+                font-size: large;
+                font-weight: 900;
+                color: black;
+                text-decoration: underline;
+                &:hover {
+                    background-color: $color-rojo;
+                }
+                &:active{
+                    background-color: gray;  
+                }
+            }
+            .formu {
+                margin-left: auto;
+                margin-right: auto;
+                div{
+                    .form-register {
+                        width: 30em;
+                        background: #24303c;
+                        padding: 1.875em;
+                        margin: auto;
+                        margin-top: auto;
+                        margin-bottom: 1.5625em;
+                        border-radius: 0.25em;
+                        font-family: 'calibri';
+                        color: white;
+                        box-shadow: 0.4375em 0.8125em 2.3125em #000;
+                        margin-top: 1.875em;
+                        .tituconsulta {
+                            padding-bottom: 1.25em;
+                        }
+                        .controls {
+                            width: 100%;
+                            background: #24303c;
+                            padding: 0.625rem;
+                            border-radius: 0.25rem;
+                            margin-bottom: 1rem;
+                            border: 0.0625rem solid #1f53c5;
+                            font-family: 'calibri';
+                            font-size: 1.125em;
+                            padding-bottom: 3.125rem;
+                        }
+                        .botons {
+                            width: 100%;
+                            background: #1f53c5;
+                            border: none;
+                            padding: 0.75rem;
+                            color: white;
+                            margin: 1rem 0;
+                            font-size: 1em;
+                        }
+                    }
+                }
+                
+            }              
+        }
+    }
+}

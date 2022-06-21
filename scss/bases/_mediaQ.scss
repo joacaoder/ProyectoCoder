@@ -1,0 +1,222 @@
+
+/* ----------MEDIA QUIERES---------- */
+
+@media screen and (max-width: 1520px){
+    li{
+        /* white-space: nowrap; */
+    }
+}
+
+@media screen and (max-width: 1031px) {
+
+    .header ul li {       
+        margin-left: 1.25em;
+        margin-right: 1.25em;
+    }
+}
+
+@media screen and (max-width: 1701px) {
+    .hero div div h1 {
+        font-size: 4em;
+    }
+
+    .hero div div p {
+        font-size: 1.675rem
+    }
+}
+
+@media screen and (max-width: 1593px) {
+    .hero div div h1 {
+        font-size: 3.5em;
+    }
+
+    .hero div div p {
+        font-size: 1.475rem
+    }
+}
+
+@media screen and (max-width: 1448px) {
+    .hero div div h1 {
+        font-size: 3.2em;
+    }
+}
+
+@media screen and (max-width: 1361px) {
+    .hero div div h1 {
+        font-size: 3em;
+    }
+
+    .hero>div {
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero div div {
+        margin-left: 15px;
+    }
+
+    .hero div div img {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1304px) {
+    .hero div div h1 {
+        font-size: 2.7em;
+    }
+
+    .video > div .marcovideo div iframe{
+        width: 640px;
+        height: 480px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width:5000px){
+    .cuerpo div div div div {
+        transition: width 2s;
+    }
+    
+    .cuerpo div div div div:hover {
+        width: 500px;       
+    }    
+}
+
+@media screen and (max-width: 899px){
+
+    .hero>div{
+        height: fit-content;
+        padding: 10px;
+        width: auto;        
+    }
+    
+    .cuerpo>div .todasfotos div{
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .cuerpo>div .todasfotos div div {
+        width: auto;
+        padding: 5px;
+    }  
+
+    .maps div {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .maps div div{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .video > div .marcovideo div iframe {
+        width: 400px;
+        height: 260px;        
+    }    
+}
+
+@media screen and (max-width: 715px) {
+    .maps{
+        width: 90%;
+    }
+
+    #main-tabla {
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 842px) {
+
+    .header {        
+        align-items: flex-start;
+    }
+
+    .header ul li {        
+        margin: 20px;
+    }
+
+    .hero {
+        justify-content: flex-start;
+    }
+
+    .hero>div {
+        flex-direction: column;
+    }
+
+    .hero>div{
+        height: fit-content;
+        padding: 10px;
+        width: auto;
+    }
+
+    .hero div div {
+        width: auto;
+    }
+
+    .maps div {
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width: 640px) {
+
+    .todasfotos>div {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .todasfotos div div {
+        width: auto;
+        padding: 5px;
+    }    
+
+    .contacto > div div .formu div .form-register {
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .hero > div{
+        height: fit-content;
+        width: auto;
+    }    
+}
+
+@media screen and (max-width: 265px){
+    .hero > div{
+        height: fit-content;
+        padding: 30px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .frames{
+       margin-left: 30px;
+    }
+
+    .video > div .metodologia{
+        width: auto;
+    }    
+
+    .video > div .metodologia h2{
+        flex-wrap: wrap;  
+        width: auto;     
+    }
+    
+    .video > div .marcovideo div iframe{
+        width: auto;
+    }   
+}
+
+@media screen and (max-width: 412px){
+    .video > div .metodologia h2{
+        flex-wrap: wrap;
+        font-size: 20pt;
+    }
+}
+

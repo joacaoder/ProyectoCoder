@@ -1,0 +1,15 @@
+/* ----------FOOTER---------- */
+
+.footer {
+    grid-area: footer;
+    div{
+        text-align: center;
+        img{
+            height: 3.125em;   
+        }
+        p{
+            color: black;
+            font-size: medium;   
+        }   
+    }
+}
