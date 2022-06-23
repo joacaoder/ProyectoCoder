@@ -71,16 +71,6 @@
     }
 }
 
-@media screen and (min-width: 900px) and (max-width:5000px){
-    .cuerpo div div div div {
-        transition: width 2s;
-    }
-    
-    .cuerpo div div div div:hover {
-        width: 500px;       
-    }    
-}
-
 @media screen and (max-width: 899px){
 
     .hero>div{

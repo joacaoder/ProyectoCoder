@@ -24,4 +24,24 @@ overflow-x:hidden;
         "footer";
 }
 
+//..........MAPS..........//
+
+$colores: (
+    uno: #E39686,
+    dos: black,
+    tres: #675450,
+);
+
+@each $titulo, $valor in $colores {
+    .titulo-#{$titulo} {
+        color: $valor;
+    }
+}
+
+//----------MIXINS----------//
+
+@mixin palabras($grosor, $tamaño) {
+    font-weight: $grosor;
+    font-size: $tamaño;
+}
 

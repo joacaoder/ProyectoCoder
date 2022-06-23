@@ -55,7 +55,7 @@
 .main {
     grid-area: main;
     width: 100%;    
-    h2 {
+    h2 {       
         text-align: center;
         font-family: "Nunito sans";
         margin-top: 1.875rem;
@@ -120,10 +120,9 @@
             flex-wrap: wrap;
             margin: 3.125em;
             a{
+                @include palabras(900, large);
                 list-style: none;
-                text-decoration: none;
-                font-size: large;
-                font-weight: 900;
+                text-decoration: none;                
                 color: black;
                 text-decoration: underline;  
                 &:hover{background-color: rgb(51, 255, 0);}
@@ -293,21 +292,24 @@
         width: 80%;
         margin-top: 2.5em;
         margin-bottom: 1.25em;
-        div{
-            .instagram {
+        div{            
+            .instagram {                
                 list-style: none;
-                text-decoration: none;
-                font-size: large;
-                font-weight: 900;
+                text-decoration: none;                
                 color: black;
                 text-decoration: underline;
+                @include palabras(900, large);
                 &:hover {
                     background-color: $color-rojo;
                 }
                 &:active{
                     background-color: gray;  
-                }
+                }                                                                 
             }
+            .instagram-dos {
+                @extend .instagram;
+                color: #24303c;
+            }          
             .formu {
                 margin-left: auto;
                 margin-right: auto;
@@ -354,3 +356,4 @@
         }
     }
 }
+

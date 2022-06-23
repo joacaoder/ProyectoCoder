@@ -20,6 +20,18 @@ body {
   grid-template-areas: "header" "main" "footer";
 }
 
+.titulo-uno {
+  color: #E39686;
+}
+
+.titulo-dos {
+  color: black;
+}
+
+.titulo-tres {
+  color: #675450;
+}
+
 /* ---------- HEADER ----------*/
 button.btn {
   background-color: #23a6d5;
@@ -174,10 +186,10 @@ button.btn-outline-info {
   margin: 3.125em;
 }
 .frames > div .contenedor a {
+  font-weight: 900;
+  font-size: large;
   list-style: none;
   text-decoration: none;
-  font-size: large;
-  font-weight: 900;
   color: black;
   text-decoration: underline;
 }
@@ -334,19 +346,22 @@ button.btn-outline-info {
   margin-top: 2.5em;
   margin-bottom: 1.25em;
 }
-.contacto > div div .instagram {
+.contacto > div div .instagram, .contacto > div div .instagram-dos {
   list-style: none;
   text-decoration: none;
-  font-size: large;
-  font-weight: 900;
   color: black;
   text-decoration: underline;
+  font-weight: 900;
+  font-size: large;
 }
-.contacto > div div .instagram:hover {
+.contacto > div div .instagram:hover, .contacto > div div .instagram-dos:hover {
   background-color: red;
 }
-.contacto > div div .instagram:active {
+.contacto > div div .instagram:active, .contacto > div div .instagram-dos:active {
   background-color: gray;
+}
+.contacto > div div .instagram-dos {
+  color: #24303c;
 }
 .contacto > div div .formu {
   margin-left: auto;
@@ -459,14 +474,6 @@ button.btn-outline-info {
   .video > div .marcovideo div iframe {
     width: 640px;
     height: 480px;
-  }
-}
-@media screen and (min-width: 900px) and (max-width: 5000px) {
-  .cuerpo div div div div {
-    transition: width 2s;
-  }
-  .cuerpo div div div div:hover {
-    width: 500px;
   }
 }
 @media screen and (max-width: 899px) {
