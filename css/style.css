@@ -487,6 +487,9 @@ button.btn-outline-info {
     justify-content: center;
     width: auto;
   }
+  .cuerpo > div .todasfotos .fotoinver {
+    flex-direction: column-reverse;
+  }
   .cuerpo > div .todasfotos div div {
     width: auto;
     padding: 5px;
