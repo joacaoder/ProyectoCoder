@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Nunito sans";
+  font-family: "Nunito Sans", sans-serif;
 }
 
 html,
@@ -184,6 +184,7 @@ button.btn-outline-info {
   align-items: center;
   flex-wrap: wrap;
   margin: 3.125em;
+  text-align: center;
 }
 .frames > div .contenedor a {
   font-weight: 900;
@@ -402,6 +403,21 @@ button.btn-outline-info {
   color: white;
   margin: 1rem 0;
   font-size: 1em;
+}
+
+.download {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Darker background on mouse-over */
+.download:hover {
+  background-color: RoyalBlue;
 }
 
 /* ----------FOOTER---------- */

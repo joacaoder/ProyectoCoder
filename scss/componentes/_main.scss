@@ -119,8 +119,9 @@
             align-items: center;            
             flex-wrap: wrap;
             margin: 3.125em;
+            text-align: center;
             a{
-                @include palabras(900, large);
+               @include palabras(900, large);
                 list-style: none;
                 text-decoration: none;                
                 color: black;
@@ -356,4 +357,19 @@
         }
     }
 }
+
+.download {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .download:hover {
+    background-color: RoyalBlue;
+  }
 
