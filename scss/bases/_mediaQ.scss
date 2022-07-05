@@ -220,3 +220,22 @@
     }
 }
 
+
+/* ----------MEDIA QUIERES PARA SECTION HERO---------- */
+
+.titulovideo{
+    {font-size: 50px;
+}
+}
+
+@media screen and (max-width: 500px){
+.titulovideo{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.titulovideo::after{
+    display: none;
+}
+}
+

@@ -15,53 +15,44 @@ button.btn:hover{
 /* ----------SECTION HERO---------- */
 .hero {
     width: 100%;
-    >div{
-        display: flex;
-        flex-direction: row;
-        height: 80vh;
-        background-image: url(../imagenes/fondohero.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        align-items: center; 
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    .absolute{
         width: 100%;
-        padding: 1.375em;
-        &:hover{
-            background-image: url(../imagenes/fondoherogris.png);
+        height: 100%;
+        top: 0;
+        right: 0;
+        position: absolute;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .titulovideo{
+            font-size: 80px;
+            font-weight: 900;
+            z-index: 100;
+            color:#fff;
+            margin-bottom: 30px;
         }
-        div{
-            width: 50%;
-            padding: 1.375em;
-            p {
-                color: white;
-                font-size: 1.875em;
-                font-family: "Nunito sans";
-                font-weight: bold;
-                margin-top: 1.875rem;
-            }
-            h1 {
-                color: yellow;
-                font-size: 4.375em;
-                font-family: "Nunito sans";
-                &:hover {
-                    transform: scale(1.05, 1.05);
-                    animation: fluido 5s ease-in-out infinite;
-                    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-                    background-size: 300%;
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    cursor: pointer;
-                }
-            }
+        .titulovideo::after{
+            display: block;
+            width: 30%;
+            height: 10px;
+            content: "";
+            margin: auto;
+            background: #fff;
         }
-        .divfoto{
-            text-align: center;
-            img {
-                width: 70%;
-                height: auto;   
-            }
-        }       
-    }    
+    }
+    .overlay{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.575);
+    }
+    video{
+        width: 100%;
+    }     
 }
 
 /* ----------MAIN INDEX---------- */
