@@ -29,16 +29,16 @@ button.btn:hover{
         justify-content: center;
         align-items: center;
         .titulovideo{
-            font-size: 80px;
+            font-size: 5rem;
             font-weight: 900;
             z-index: 100;
             color:#fff;
-            margin-bottom: 30px;
+            margin-bottom: 1.875rem;
         }
         .titulovideo::after{
             display: block;
             width: 30%;
-            height: 10px;
+            height: 0.625rem;
             content: "";
             margin: auto;
             background: #fff;

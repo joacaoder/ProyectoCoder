@@ -223,14 +223,17 @@
 
 /* ----------MEDIA QUIERES PARA SECTION HERO---------- */
 
-.titulovideo{
-    {font-size: 50px;
+@media screen and (max-width: 800px){
+    .titulovideo{
+        font-size: 3.125rem;
+    }
 }
-}
+
+
 
 @media screen and (max-width: 500px){
 .titulovideo{
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 0;
 }
 
