@@ -635,17 +635,14 @@ button.btn:hover {
 }
 /* ----------MEDIA QUIERES PARA SECTION HERO---------- */
 @media screen and (max-width: 800px) {
-  .titulovideo {
+  .hero .absolute .titulovideo {
     font-size: 3.125rem;
   }
 }
-@media screen and (max-width: 500px) {
-  .titulovideo {
+@media screen and (max-width: 534px) {
+  .hero .absolute .titulovideo {
     font-size: 1.875rem;
     margin-bottom: 0;
-  }
-  .titulovideo::after {
-    display: none;
   }
 }
 /* ----------TRAINSICIONES---------- */
