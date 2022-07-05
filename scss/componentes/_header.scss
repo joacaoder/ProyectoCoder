@@ -1,6 +1,14 @@
 /* ---------- HEADER ----------*/
 
 button.btn{
+    background-color: white;
+}
+
+button.btn:hover{
+    color: white;
+}
+
+button.btn{
     background-color: #23a6d5;
 }
 
@@ -16,6 +24,7 @@ button.btn-outline-info{
         li{
             margin-left: 1.25em;
             margin-right: 1.25em;
+            text-align: center;
             a{
                 text-decoration: none;
                 color: white;
