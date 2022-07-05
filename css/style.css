@@ -1,4 +1,5 @@
 /* ---------- ETIQUETAS GENERALES*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -32,6 +33,39 @@ body {
   color: #675450;
 }
 
+.download {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Darker background on mouse-over */
+.download:hover {
+  background-color: RoyalBlue;
+  cursor: default;
+}
+
+#balsaexe {
+  color: black;
+}
+
+#balsaexe:hover {
+  background-color: unset;
+  cursor: pointer;
+}
+
+#visualexe {
+  color: black;
+}
+
+#visualexe:hover {
+  background-color: unset;
+  cursor: pointer;
+}
+
 /* ---------- HEADER ----------*/
 button.btn {
   background-color: #23a6d5;
@@ -60,6 +94,19 @@ button.btn-outline-info {
 }
 .header ul li a:hover {
   background-color: darkcyan;
+}
+
+/*----------HEADER----------*/
+.header ul li {
+  text-align: center;
+}
+
+button.btn {
+  background-color: white;
+}
+
+button.btn:hover {
+  color: white;
 }
 
 /* ----------SECTION HERO---------- */
@@ -151,6 +198,9 @@ button.btn-outline-info {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.cuerpo > div .todasfotos div .textoancho {
+  width: 60%;
 }
 .cuerpo > div .todasfotos div div {
   width: 25%;
@@ -274,17 +324,14 @@ button.btn-outline-info {
   box-shadow: 0 0 0.625em 0.125em rgba(144, 149, 161, 0.2);
   padding: 20px;
   width: 80%;
-  justify-content: center;
-}
-.marcodedicamos > div div {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.marcodedicamos > div div p {
+.marcodedicamos > div p {
   font-size: 22px;
 }
-.marcodedicamos > div div h2 {
+.marcodedicamos > div h2 {
   margin-top: 20px;
   text-decoration: underline;
 }
@@ -364,11 +411,11 @@ button.btn-outline-info {
 .contacto > div div .instagram-dos {
   color: #24303c;
 }
-.contacto > div div .formu {
+.contacto > div .formu {
   margin-left: auto;
   margin-right: auto;
 }
-.contacto > div div .formu div .form-register {
+.contacto > div .formu div .form-register {
   width: 30em;
   background: #24303c;
   padding: 1.875em;
@@ -381,10 +428,10 @@ button.btn-outline-info {
   box-shadow: 0.4375em 0.8125em 2.3125em #000;
   margin-top: 1.875em;
 }
-.contacto > div div .formu div .form-register .tituconsulta {
+.contacto > div .formu div .form-register .tituconsulta {
   padding-bottom: 1.25em;
 }
-.contacto > div div .formu div .form-register .controls {
+.contacto > div .formu div .form-register .controls {
   width: 100%;
   background: #24303c;
   padding: 0.625rem;
@@ -395,7 +442,7 @@ button.btn-outline-info {
   font-size: 1.125em;
   padding-bottom: 3.125rem;
 }
-.contacto > div div .formu div .form-register .botons {
+.contacto > div .formu div .form-register .botons {
   width: 100%;
   background: #1f53c5;
   border: none;
@@ -403,21 +450,6 @@ button.btn-outline-info {
   color: white;
   margin: 1rem 0;
   font-size: 1em;
-}
-
-.download {
-  background-color: DodgerBlue;
-  border: none;
-  color: white;
-  padding: 12px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: 20px;
-}
-
-/* Darker background on mouse-over */
-.download:hover {
-  background-color: RoyalBlue;
 }
 
 /* ----------FOOTER---------- */
@@ -505,6 +537,10 @@ button.btn-outline-info {
   }
   .cuerpo > div .todasfotos .fotoinver {
     flex-direction: column-reverse;
+  }
+  .cuerpo > div .todasfotos div .textoancho {
+    width: auto;
+    text-align: justify;
   }
   .cuerpo > div .todasfotos div div {
     width: auto;

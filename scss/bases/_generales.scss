@@ -1,4 +1,5 @@
 /* ---------- ETIQUETAS GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
 *{
     padding: 0;
@@ -45,3 +46,37 @@ $colores: (
     font-size: $tamaño;
 }
 
+//----------BOTONDESCARGARINDEX----------//
+
+.download {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;    
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .download:hover {
+    background-color: RoyalBlue;
+    cursor: default;
+  }
+  
+#balsaexe{
+    color: black;
+}
+
+#balsaexe:hover{
+    background-color: unset;
+    cursor: pointer;
+}
+
+#visualexe{
+    color: black;
+}
+
+#visualexe:hover{
+    background-color: unset;
+    cursor: pointer;
+}
