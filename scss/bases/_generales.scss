@@ -28,9 +28,9 @@ overflow-x:hidden;
 //..........MAPS..........//
 
 $colores: (
-    uno: #E39686,
+    uno: black,
     dos: black,
-    tres: #675450,
+    tres: black,
 );
 
 @each $titulo, $valor in $colores {
@@ -49,7 +49,7 @@ $colores: (
 //----------BOTONDESCARGARINDEX----------//
 
 .download {
-    background-color: DodgerBlue;
+    background-color: rgb(70, 198, 221);
     border: none;
     color: white;
     padding: 12px 30px;    

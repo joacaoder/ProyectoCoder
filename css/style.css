@@ -22,7 +22,7 @@ body {
 }
 
 .titulo-uno {
-  color: #E39686;
+  color: black;
 }
 
 .titulo-dos {
@@ -30,11 +30,11 @@ body {
 }
 
 .titulo-tres {
-  color: #675450;
+  color: black;
 }
 
 .download {
-  background-color: DodgerBlue;
+  background-color: rgb(70, 198, 221);
   border: none;
   color: white;
   padding: 12px 30px;
@@ -102,13 +102,14 @@ button.btn-outline-info {
   font-size: 15pt;
 }
 .header ul li a:hover {
-  background-color: darkcyan;
+  background-color: rgb(70, 198, 221);
 }
 
 /* ----------SECTION HERO---------- */
 .hero {
   width: 100%;
   height: auto;
+  max-height: 85vh;
   position: relative;
   overflow: hidden;
 }
@@ -157,7 +158,7 @@ button.btn-outline-info {
   text-align: center;
   font-family: "Nunito sans";
   margin-top: 1.875rem;
-  font-size: 1.875em;
+  font-size: 2.775em;
 }
 
 .cuerpo p {
