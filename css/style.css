@@ -585,6 +585,15 @@ button.btn-outline-info {
   .contacto > div div .formu div .form-register {
     width: 20em;
   }
+  .marcotabla > div #main-tabla table {
+    width: fit-content;
+  }
+  .marcotabla > div #main-tabla {
+    width: 0%;
+  }
+  .contacto > div .formu div .form-register {
+    width: 20em;
+  }
 }
 @media screen and (max-width: 500px) {
   .hero > div {
@@ -638,6 +647,12 @@ button.btn-outline-info {
     width: 15rem;
     height: 9.25rem;
   }
+  .marcotabla > div {
+    padding: 1.125em;
+  }
+  .contacto > div .formu div .form-register {
+    width: 16em;
+  }
 }
 @media screen and (max-width: 470px) {
   .frames > div .contenedor div iframe {
@@ -648,10 +663,14 @@ button.btn-outline-info {
 @media screen and (max-width: 390px) {
   .frames > div .contenedor {
     width: 80%;
+    height: auto;
   }
   .maps div div iframe {
     width: 100%;
     height: 120px;
+  }
+  .maps div div {
+    height: auto;
   }
 }
 /* ----------TRAINSICIONES---------- */
