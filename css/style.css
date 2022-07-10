@@ -254,15 +254,13 @@ button.btn-outline-info {
   border-left-style: solid;
   border-left-color: #272727;
   border-left-width: 0.3125em;
-  margin-left: 3.125em;
   border-radius: 0.25em;
   box-shadow: 0 0 0.625em 0.125em rgba(144, 149, 161, 0.2);
   padding: 30px;
+  margin: 3.125em;
 }
 .maps div div iframe {
   height: 100%;
-  width: 20em;
-  padding: 10px;
 }
 .maps div div p {
   text-align: justify;
@@ -534,14 +532,6 @@ button.btn-outline-info {
     width: auto;
     padding: 5px;
   }
-  .maps div {
-    flex-direction: column;
-    justify-content: center;
-    width: auto;
-  }
-  .maps div div {
-    width: auto;
-  }
 }
 @media screen and (max-width: 768px) {
   .video > div .marcovideo div iframe {
@@ -553,9 +543,6 @@ button.btn-outline-info {
   }
 }
 @media screen and (max-width: 715px) {
-  .maps {
-    width: 90%;
-  }
   #main-tabla {
     width: 20em;
   }
@@ -644,6 +631,27 @@ button.btn-outline-info {
   .video > div .marcovideo div iframe {
     width: auto;
     height: auto;
+  }
+}
+@media screen and (max-width: 430px) {
+  .video > div .marcovideo div iframe {
+    width: 15rem;
+    height: 9.25rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .frames > div .contenedor div iframe {
+    width: 15.125em;
+    height: 15.125em;
+  }
+}
+@media screen and (max-width: 390px) {
+  .frames > div .contenedor {
+    width: 80%;
+  }
+  .maps div div iframe {
+    width: 100%;
+    height: 120px;
   }
 }
 /* ----------TRAINSICIONES---------- */

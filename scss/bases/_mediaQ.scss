@@ -98,17 +98,7 @@
     .cuerpo>div .todasfotos div div {
         width: auto;
         padding: 5px;        
-    }  
-
-    .maps div {
-        flex-direction: column;
-        justify-content: center;
-        width: auto;
-    }
-
-    .maps div div{
-        width: auto;
-    }
+    }    
 }
 
 @media screen and (max-width: 768px){
@@ -124,10 +114,6 @@
 }
 
 @media screen and (max-width: 715px) {
-    .maps{
-        width: 90%;
-    }
-
     #main-tabla {
         width: 20em;
     }
@@ -218,7 +204,7 @@
     .video > div .metodologia h2{
         flex-wrap: wrap;
         font-size: 20pt;
-    }
+    }    
 }
 
 /* ----------MEDIA QUIERES PARA SECTION HERO---------- */
@@ -238,5 +224,30 @@
     .video > div .marcovideo div iframe{
         width: auto;
         height: auto;      
+    }
+}
+
+@media screen and (max-width: 430px){ 
+    .video > div .marcovideo div iframe{
+        width: 15rem;
+        height: 9.25rem;      
+    }   
+}
+
+@media screen and (max-width: 470px){
+    .frames > div .contenedor div iframe{
+        width: 15.125em;
+        height: 15.125em;
+    }   
+}
+
+@media screen and (max-width: 390px){
+    .frames > div .contenedor{
+        width: 80%;
+    }
+
+    .maps div div iframe{
+        width: 100%;
+        height: 120px;
     }
 }
