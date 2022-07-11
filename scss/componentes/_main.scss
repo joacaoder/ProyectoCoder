@@ -114,8 +114,7 @@
             align-items: center;            
             flex-wrap: wrap;
             margin: 3.125em;
-            text-align: center;
-            // width: 80%;
+            text-align: center;            
             a{
                @include palabras(900, large);
                 list-style: none;
@@ -149,8 +148,7 @@
             border-radius: 0.25em;
             box-shadow: 0 0 0.625em 0.125em $color-gris;     
             padding: 30px;
-            margin: 3.125em;
-            // width: 80%;                                              
+            margin: 3.125em;                                                        
             iframe{
                 height: 100%;               
                    
